@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+    {% block content %}
+
+    <div class="text-center mine1"><h3>R19-AGRICULTURE</h3></div>
+	<div class="card ">
+  <div class="card-header"> 
+    <ul class="nav nav-tabs card-header-tabs pull-right"  id="r19agri_years" role="tablist">
+      <li class="nav-item">
+       <a class="nav-link active" id="r19agri_1styear" data-toggle="tab" href="#r19agri_1styear" role="tab" aria-controls="home" aria-selected="true">1st Year</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="r19agri_2ndyear" data-toggle="tab" href="#r19agri_2ndyear" role="tab" aria-controls="profile" aria-selected="false">2nd Year</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="r19agri_3rdyear" data-toggle="tab" href="#r19agri_3rdyear" role="tab" aria-controls="contact" aria-selected="false">3rd Year</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="r19agri_4thyear" data-toggle="tab" href="#r19agri_4thyear" role="tab" aria-controls="contact" aria-selected="false">4th Year</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+   <div class="tab-content" id="r19agri_years_Content">
+             <div class="tab-pane fade show active" id="r19agri_1styear" role="tabpanel" aria-labelledby="r19agri_1styear">...</div>
+  <div class="tab-pane fade" id="r19agri_2ndyear" role="tabpanel" aria-labelledby="r19agri_2ndyear">...</div>
+  <div class="tab-pane fade" id="r19agri_3rdyear" role="tabpanel" aria-labelledby="r19agri_3rdyear">...</div>
+    <div class="tab-pane fade" id="r19agri_4thyear" role="tabpanel" aria-labelledby="r19agri_4thyear">...</div>
+        </div>
+  </div>
+</div>
+
+	{% endblock %}
